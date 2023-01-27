@@ -66,8 +66,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
-    max-width: 600px;
-    max-height: 450px;
+    max-width: 37.5rem;
+    max-height: 28.125rem;
 }
 
 h1 {
@@ -133,17 +133,21 @@ button:hover {
     cursor: pointer;
 }
 
-
+footer {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+}
 
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 0.687rem; text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
     main {
         grid-template-columns: 1fr;
         max-height: fit-content;
