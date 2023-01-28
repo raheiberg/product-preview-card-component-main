@@ -151,5 +151,6 @@ footer {
     main {
         grid-template-columns: 1fr;
         max-height: fit-content;
+        max-width: 80%;
     }
 }
